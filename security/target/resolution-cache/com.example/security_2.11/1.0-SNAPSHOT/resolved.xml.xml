@@ -4,7 +4,7 @@
 		module="security_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20170306090120"
+		publication="20170307012421"
 	>
 		<description>
 		security

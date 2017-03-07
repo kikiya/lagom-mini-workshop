@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m:: delivering :: com.example#online-auction-scala_2.11;0.1-SNAPSHOT :: 0.1-SNAPSHOT :: integration :: Mon Mar 06 22:18:46 EST 2017[0m
-[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Mon Mar 06 22:18:46 EST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
-[0m[[0minfo[0m] [0m	delivering ivy file to /Users/kiki/workspace/online-auction-scala/target/scala-2.11/ivy-0.1-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (7ms)[0m

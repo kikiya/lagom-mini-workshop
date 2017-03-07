@@ -1,9 +1,0 @@
-[0m[[0minfo[0m] [0mPackaging /Users/kiki/workspace/online-auction-scala/bidding-api/target/scala-2.11/biddingapi_2.11-1.0-SNAPSHOT-sources.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	com/example/auction/bidding/api/Bid.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/bidding-api/src/main/scala/com/example/auction/bidding/api/Bid.scala[0m
-[0m[[0mdebug[0m] [0m	com/example/auction/bidding/api/BiddingService.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/bidding-api/src/main/scala/com/example/auction/bidding/api/BiddingService.scala[0m
-[0m[[0mdebug[0m] [0m	com/example/auction/bidding/api/BidEvent.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/bidding-api/src/main/scala/com/example/auction/bidding/api/BidEvent.scala[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m

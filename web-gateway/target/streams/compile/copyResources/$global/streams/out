@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/kiki/workspace/online-auction-scala/web-gateway/conf/application.conf,/Users/kiki/workspace/online-auction-scala/web-gateway/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/kiki/workspace/online-auction-scala/web-gateway/conf/messages,/Users/kiki/workspace/online-auction-scala/web-gateway/target/scala-2.11/classes/messages)[0m
-[0m[[0mdebug[0m] [0m	(/Users/kiki/workspace/online-auction-scala/web-gateway/conf/routes,/Users/kiki/workspace/online-auction-scala/web-gateway/target/scala-2.11/classes/routes)[0m
