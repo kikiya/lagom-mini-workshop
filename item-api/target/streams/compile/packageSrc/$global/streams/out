@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging /Users/kiki/workspace/online-auction-scala/item-api/target/scala-2.11/itemapi_2.11-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/api/Item.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-api/src/main/scala/com/example/auction/item/api/Item.scala[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/api/ItemEvent.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-api/src/main/scala/com/example/auction/item/api/ItemEvent.scala[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/api/ItemService.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-api/src/main/scala/com/example/auction/item/api/ItemService.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

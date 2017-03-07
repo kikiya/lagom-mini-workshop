@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging /Users/kiki/workspace/online-auction-scala/item-impl/target/scala-2.11/itemimpl_2.11-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/ItemRepository.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/ItemRepository.scala[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/resources/application.conf[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/ItemApplication.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/ItemApplication.scala[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/BiddingServiceSubscriber.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/BiddingServiceSubscriber.scala[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/resources/logback.xml[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/ItemEntity.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/ItemEntity.scala[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/ItemSerializerRegistry.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/ItemSerializerRegistry.scala[0m
+[0m[[0mdebug[0m] [0m	com/example/auction/item/impl/ItemServiceImpl.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/kiki/workspace/online-auction-scala/item-impl/src/main/scala/com/example/auction/item/impl/ItemServiceImpl.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

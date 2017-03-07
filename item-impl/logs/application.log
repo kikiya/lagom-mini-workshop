@@ -1,0 +1,8 @@
+2017-03-07 00:31:54,780 [ERROR] from akka.actor.OneForOneStrategy in itemImpl-application-akka.actor.default-dispatcher-18 - Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-16-1-unknown-operation#1039470957]] terminated abruptly
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-16-1-unknown-operation#1039470957]] terminated abruptly
+2017-03-07 00:31:54,808 [ERROR] from akka.actor.OneForOneStrategy in itemImpl-application-akka.actor.default-dispatcher-18 - Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-15-1-unknown-operation#-1611482723]] terminated abruptly
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-15-1-unknown-operation#-1611482723]] terminated abruptly
+2017-03-07 00:31:54,809 [ERROR] from akka.actor.OneForOneStrategy in itemImpl-application-akka.actor.default-dispatcher-18 - Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-17-1-unknown-operation#499892349]] terminated abruptly
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-17-1-unknown-operation#499892349]] terminated abruptly
+2017-03-07 00:31:54,809 [ERROR] from akka.actor.OneForOneStrategy in itemImpl-application-akka.actor.default-dispatcher-18 - Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-18-1-unknown-operation#848129621]] terminated abruptly
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://itemImpl-application/user/StreamSupervisor-1/flow-18-1-unknown-operation#848129621]] terminated abruptly
