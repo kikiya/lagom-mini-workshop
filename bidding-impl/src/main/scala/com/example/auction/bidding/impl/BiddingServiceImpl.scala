@@ -15,7 +15,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class BiddingServiceImpl(persistentEntityRegistry: PersistentEntityRegistry)(implicit ec: ExecutionContext) extends BiddingService {
 
   override def placeBid(itemId: UUID) = authenticated(userId => ServerServiceCall { bid =>
-    entityRef(itemId).ask(PlaceBid(bid.maximumBidPrice, userId))
+      entityRef(itemId).ask(PlaceBid(bid.maximumBidPrice, userId))
       .map { result =>
         val status = result.status match {
           case PlaceBidStatus.Accepted => api.BidResultStatus.Accepted
