@@ -17,13 +17,14 @@ class BrokerEventConsumer(indexedStore: IndexedStore[SearchResult],
   private val biddEvents = biddingService.bidEvents
   itemEvents.subscribe.withGroupId("search-service")
     .atLeastOnce(Flow[ItemEvent].map(toDocument).collect { case Some(x) => x }.mapAsync(1)(indexedStore.store))
-  biddEvents.subscribe.withGroupId("search-service")
-    .atLeastOnce(Flow[BidEvent].map(toDocument).collect { case Some(x) => x }.mapAsync(1)(indexedStore.store))
+
+  //TODO: update the read side representation for search using Bid Events as well
+
 
   def toDocument(event: ItemEvent): Option[IndexedItem] = {
     event match {
       case AuctionStarted(itemId, creator, _, _, startDate, endDate) =>
-        Some(IndexedItem.forAuctionStart(itemId, creator)) // , startDate, endDate)) // TODO: use auction start and end dates
+        Some(IndexedItem.forAuctionStart(itemId, creator))
       case AuctionFinished(itemId, item) =>
         Some(IndexedItem.forAuctionFinished(itemId, item))
       case ItemUpdated(itemId, creator, title, description, currencyId, status) =>

@@ -31,11 +31,12 @@ class BiddingServiceImpl(persistentEntityRegistry: PersistentEntityRegistry)(imp
       }
   })
 
-  override def getBids(itemId: UUID) = ServerServiceCall { _ =>
-    entityRef(itemId).ask(GetAuction).map { auction =>
-      auction.biddingHistory.map(convertBid).reverse
-    }
-  }
+  /**
+    * TODO: Use the itemID to get an entity ref. Ask the persistent entity for its Auction and retrieve
+    * bidding history from that auction. Use "convertBid" to convert the history data into a bid.
+    *
+   */
+  override def getBids(itemId: UUID) = ???
 
   override def bidEvents = TopicProducer.taggedStreamWithOffset(AuctionEvent.Tag.allTags.to[immutable.Seq]) { (tag, offset) =>
     persistentEntityRegistry.eventStream(tag, offset).filter(e =>

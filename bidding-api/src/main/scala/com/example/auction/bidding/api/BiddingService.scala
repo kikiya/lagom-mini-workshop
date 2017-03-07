@@ -40,8 +40,10 @@ trait BiddingService extends Service {
     import Service._
 
     named("bidding").withCalls(
-      pathCall("/api/item/:id/bids", placeBid _),
-      pathCall("/api/item/:id/bids", getBids _)
+      pathCall("/api/item/:id/bids", placeBid _)
+      //todo
+      //add a route to handle getting bids
+      //hint: you can use the same path with correct function
     ).withTopics(
       topic("bidding-BidEvent", bidEvents)
     ).withHeaderFilter(SecurityHeaderFilter.Composed)
